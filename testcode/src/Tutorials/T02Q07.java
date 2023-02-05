@@ -13,10 +13,10 @@ public class T02Q07 {
         Scanner sc = new Scanner(System.in);
         double inch, meter;
         
-        System.out.println("Please enter the value of the inch to convert : ");
+        System.out.printf("Please enter the value of the inch to convert : ");
         inch = sc.nextDouble();
         
         meter = inch * 2.54 / 100;
-        System.out.printf("%4.2f meters",meter);
+        System.out.printf("%4.2f inches = %4.2f meters\n",inch,meter);
     }
 }//ぶるぶ:3
