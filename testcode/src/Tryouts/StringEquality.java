@@ -19,7 +19,7 @@ public class StringEquality {
         }
         String n1,n2;
         
-        n1 = "Bryan";
+        n1 = "Blub";
         n2 = "Blub";
         
         int result = n1.compareTo(n2);
